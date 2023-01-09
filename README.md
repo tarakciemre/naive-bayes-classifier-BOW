@@ -58,7 +58,7 @@ The difference between the model using fair Dirichlet prior and the one without 
 
 
 # Code
-
+```
 import pandas as pd
 import numpy as np
 dirichlet = True
@@ -143,3 +143,4 @@ FP = confusion_sum['FP']
 FN = confusion_sum['FN']
 accuracy = (TP + TN) / (TP + TN + FP + FN)
 print("Accuracy: " + str(accuracy))
+```
