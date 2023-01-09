@@ -18,7 +18,7 @@ Numpy is useful for creating the arrays using numpy arrays before turning them i
 	- football: 198
 	- rugby: 114
 	- tennis: 77
-![[Graph.png]]
+![](Graph.png)
 #### 2.
 The training set is skewed towards football class. The impalanced training set does affect the model because the model will have a tendency to predict an article as football because of the increase of the term $P(Y=y_k)$ in the model.
 #### 3.
@@ -35,16 +35,16 @@ In my dataset, both the training and validation data are skewed towards football
 
 ### Question 2.2
 Without fair dirichlet prior, the model had a low accuracy of 0.7254 with the following confusion matrix:
-![[Pasted image 20221030231022.png]]
-![[Pasted image 20221030231031.png]]
+![](images/CF_1.png)
+![](images/CF_2.png)
 - Accuracy: 0.7254
 - Wrong predictions: 127
 
 ### Question 2.3
 With fair dirichlet prior, the accuracy of the model increased substantially.
 
-![[Pasted image 20221030221851.png]]
-![[Pasted image 20221030221545.png]]
+![](images/CF_3.png)
+![](images/CF_4.png)
 - Accuracy: 0.9892
 - Wrong predictions: 5
 
