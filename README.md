@@ -18,7 +18,7 @@ Numpy is useful for creating the arrays using numpy arrays before turning them i
 	- football: 198
 	- rugby: 114
 	- tennis: 77
-![](Graph.png)
+![](images/Graph.png)
 #### 2.
 The training set is skewed towards football class. The impalanced training set does affect the model because the model will have a tendency to predict an article as football because of the increase of the term $P(Y=y_k)$ in the model.
 #### 3.
